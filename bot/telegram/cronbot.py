@@ -16,7 +16,7 @@ from django.db.models import Q
 from telegram.models import Bots, Logs, BotUsers, Step, OperationNames
 from vk.models import VKApi
 
-TOKEN = '545488143:AAHCEQCCl6E7H1tjFpoQpkIrzF3PkqcYswc'
+TOKEN = '545488143:AAHCEQCCl6E7H1tjFpoQpkIrzF3PkqcYswc'  # токен у бота не действительный
 
 botCommands = (
     ('start', 'Начало работы '),
